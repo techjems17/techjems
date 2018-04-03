@@ -10,7 +10,6 @@
 * Cypress
 * Bootstrap
 * CSS
-* Heroku
 
 ## Prerequisites
 
