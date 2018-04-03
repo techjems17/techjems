@@ -27,13 +27,37 @@ button a {
     color: #474747;
 }
 
+section {
+    color: #474747;
+    background-color: #7cd5f6;
+    height: 90vh;
+    padding: 30px;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    font-family: 'Questrial';
+    font-weight: bold;
+}
+
+.past div {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.past img {
+    height: 40px;
+    width: 40px;
+}
+
 .contact {
     display: flex;
     justify-content: space-around;
     text-align: center;
-    color: #474747;
-    background-color: #7cd5f6;
-    height: 90vh;
 }
 
 .me {
