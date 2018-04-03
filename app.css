@@ -43,6 +43,11 @@ p {
     font-weight: bold;
 }
 
+.past li {
+    margin: 10px 5px 25px 5px;
+    width: 250px;
+}
+
 .past div {
     display: flex;
     justify-content: space-around;
@@ -50,8 +55,26 @@ p {
 }
 
 .past img {
+    float: left;
     height: 40px;
-    width: 40px;
+    width: 50px;
+}
+
+.created {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.created li {
+    width: 300px;
+    margin: 35px 5px;
+}
+
+.created img {
+    float: right;
+    height: 150px;
+    width: 200px;
 }
 
 .contact {
@@ -78,7 +101,7 @@ footer {
     justify-content: space-between;
     padding: 20px 5px;
     background-color: #444444;
-    position: absolute;
+    position: relative;
     bottom: 0;
     width: 100%;
 }
