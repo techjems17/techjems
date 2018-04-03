@@ -1,4 +1,6 @@
 # techjems
+Get to know me a little better! Look at what I have done in my life, projects I have created, and get in touch.
+
 [Visit site](http://techjems.surge.sh/)
 
 ![screenshot](https://github.com/techjems17/techjems/blob/master/images/Screen%20Shot%202018-04-03%20at%209.24.18%20AM.png)
