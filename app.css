@@ -56,8 +56,9 @@ p {
 
 .past img {
     float: left;
-    height: 40px;
-    width: 50px;
+    height: 70px;
+    width: 80px;
+    margin-right: 5px;
 }
 
 .created {
