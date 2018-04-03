@@ -1,7 +1,7 @@
 # techjems
 [Visit site](https://techjems.herokuapp.com/)
 
-![screenshot]()
+![screenshot](https://github.com/techjems17/techjems/blob/master/images/Screen%20Shot%202018-04-03%20at%209.24.18%20AM.png)
 
 
 ##Technologies
