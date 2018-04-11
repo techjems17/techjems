@@ -58,17 +58,6 @@ p {
     list-style: none;
 }
 
-/* .created li {
-    width: 300px;
-    margin: 35px 5px;
-}
-
-.created img {
-    float: right;
-    height: 150px;
-    width: 200px;
-} */
-
 .contact {
     display: flex;
     justify-content: space-around;
