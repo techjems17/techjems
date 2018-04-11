@@ -46,15 +46,15 @@ p {
     font-weight: bold;
 }
 
+.created .card {
+    width: 15rem;
+}
+
 .past {
-    display: flex;
-    justify-content: space-around;
     list-style: none;
 }
 
 .created {
-    display: flex;
-    justify-content: space-around;
     list-style: none;
 }
 
@@ -75,6 +75,45 @@ p {
     font-family: 'Questrial';
     font-size: large;
     font-weight: bold;
+}
+
+@media (min-width: 700px) {
+    .created .card {
+        width: 20rem;
+    }
+
+    .past {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+    }
+
+    .created {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+    }
+}
+
+@media (min-width: 800px) {
+    .past {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 10px;
+    }
+
+    .created {
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+@media (min-width: 1400px) {
+    .past {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 10px;
+    }
 }
 
 footer {
