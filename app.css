@@ -3,6 +3,7 @@
 body,
 html {
     height: 100%;
+    margin: 0;
 }
 
 .hero-image {
@@ -17,6 +18,7 @@ html {
 .hero-text {
     text-align: center;
     position: absolute;
+    font-size: xx-large;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -28,10 +30,11 @@ button a {
 }
 
 section {
-    color: #474747;
-    background-color: #7cd5f6;
-    height: 90vh;
-    padding: 30px;
+    color: #7cd5f6;
+    background-color: #474747;
+    padding: 50px;
+    min-height: 100%;
+    margin: 0 auto -50px;
 }
 
 h1 {
@@ -43,22 +46,10 @@ p {
     font-weight: bold;
 }
 
-.past li {
-    margin: 10px 5px 25px 5px;
-    width: 250px;
-}
-
-.past div {
+.past {
     display: flex;
     justify-content: space-around;
     list-style: none;
-}
-
-.past img {
-    float: left;
-    height: 70px;
-    width: 80px;
-    margin-right: 5px;
 }
 
 .created {
@@ -67,7 +58,7 @@ p {
     list-style: none;
 }
 
-.created li {
+/* .created li {
     width: 300px;
     margin: 35px 5px;
 }
@@ -76,7 +67,7 @@ p {
     float: right;
     height: 150px;
     width: 200px;
-}
+} */
 
 .contact {
     display: flex;
