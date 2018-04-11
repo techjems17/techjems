@@ -106,7 +106,7 @@ p {
         justify-content: space-around;
     }
 
-    .contact img {
+    .contact .me {
         width: 40%;
         height: 75%;
     }
