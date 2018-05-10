@@ -5,7 +5,6 @@ var close = document.getElementsByClassName("close")[0];
 
 small.onclick = () => {
     modal.style.display = "block";
-    large.src = this.src;
 }
 
 close.onclick = () => {

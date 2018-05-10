@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Questrial');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:600');
 
 body,
 html {
@@ -6,8 +6,18 @@ html {
     margin: 0;
 }
 
+.navbar-brand {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.nav-link {
+    font-size: large;
+    font-weight: bold;
+}
+
 .hero-image {
-    background-image: url("http://goldwallpapers.com/uploads/posts/magical-wallpaper/magical_wallpaper_001.jpg");
+    background-image: url("./images/site-wallpaper.jpg");
     height: 90%;
     background-position: center;
     background-repeat: no-repeat;
@@ -19,20 +29,28 @@ html {
     text-align: center;
     position: absolute;
     font-size: xx-large;
-    top: 50%;
-    left: 50%;
+    top: 56%;
+    left: 49%;
     transform: translate(-50%, -50%);
     color: white;
+    font-weight: bold;
 }
 
-button a {
-    color: #474747;
+.hero-text a {
+    color: #7cd5f6;
+    background-color: white;
+    margin-top: 5px;
+    padding: 10px;
+    border: 2px solid #7cd5f6;
+    height: 50px;
+    width: 200px;
+    text-align: center;
 }
 
 section {
     color: #7cd5f6;
     background-color: #474747;
-    padding: 50px;
+    padding: 75px;
     min-height: 100%;
     margin: 0 auto -50px;
 }
@@ -42,8 +60,9 @@ h1 {
 }
 
 p {
-    font-family: 'Questrial';
+    font-family: 'Open Sans';
     font-weight: bold;
+    font-size: large;
 }
 
 .created .card {
@@ -65,7 +84,7 @@ p {
 .contact ul {
     list-style: none;
     margin-top: 20%;
-    font-family: 'Questrial';
+    font-family: 'Open Sans';
     font-size: large;
     font-weight: bold;
     padding-left: 0px; 
@@ -136,7 +155,7 @@ p {
         width: 50%;
         list-style: none;
         margin-top: 5%;
-        font-family: 'Questrial';
+        font-family: 'Open Sans';
         font-size: large;
         font-weight: bold;
         padding-left: 0px;
@@ -153,7 +172,7 @@ p {
         height: 100%;
         overflow: auto;
         background-color: var(--dark-blue);
-        background-color: rgba(44, 61, 81, 0.8);
+        background-color: #474747;
     }
 
     .large-res {
